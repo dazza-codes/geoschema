@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.365379,
+          34.199669
+        ]
+      },
+      "properties": {
+        "stid": "KBUR",
+        "elevation": 728,
+        "mnet_id": 1,
+        "name": "Burbank - Bob Hope Airport",
+        "acquired_at": "2020-05-11T20:55:00",
+        "air_temp": 23.0,
+        "relative_humidity": 46.78,
+        "wind_gust": 9.26,
+        "wind_speed": 3.6,
+        "wind_direction": 200
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.566673,
+          37.366669
+        ]
+      },
+      "properties": {
+        "stid": "KMER",
+        "elevation": 187,
+        "mnet_id": 1,
+        "name": "Merced / Castle Air Force Base",
+        "acquired_at": "2020-05-11T20:45:00",
+        "air_temp": 29.0,
+        "relative_humidity": 10.55,
+        "wind_gust": 7.2,
+        "wind_speed": 0.0,
+        "wind_direction": 0
+      }
+    }
+ ]
+}

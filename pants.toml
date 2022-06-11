@@ -1,0 +1,29 @@
+[anonymous-telemetry]
+enabled = false
+
+[GLOBAL]
+pants_version = "2.11.0"
+
+backend_packages = [
+  "pants.backend.python",
+  "pants.backend.python.lint.bandit",
+  "pants.backend.python.lint.black",
+  "pants.backend.python.lint.docformatter",
+  "pants.backend.python.lint.flake8",
+  "pants.backend.python.lint.isort",
+  "pants.backend.python.lint.pylint",
+  "pants.backend.python.typecheck.mypy",
+  "pants.backend.codegen.protobuf.lint.buf",
+  "pants.backend.codegen.protobuf.python",
+  "pants.backend.codegen.thrift.apache.python",
+  "pants.backend.docker",
+  "pants.backend.docker.lint.hadolint",
+  "pants.backend.shell",
+  "pants.backend.shell.lint.shfmt",
+  "pants.backend.shell.lint.shellcheck",
+]
+
+[source]
+root_patterns = [
+  'tests',
+]
